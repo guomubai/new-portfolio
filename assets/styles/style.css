@@ -27,3 +27,8 @@ body {
 .contact-form {
 	padding-top: 10px;
 }
+
+#submit-button {
+	padding-left: 20px;
+	background-color: #01579b;
+}
