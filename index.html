@@ -8,7 +8,7 @@
 	<title>Erick Garcia</title>
 
 	<!-- Favicon -->
-<link rel="shortcut icon" type = "image/png" href="./assets/images/Favicon.png">
+	<link rel="shortcut icon" type="image/png" href="./assets/images/Favicon.png">
 
 	<!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -38,19 +38,20 @@
 			<a href="#!" class="brand-logo"><span class="logo grey-text text-lighten-2">Erick Garcia</span></a>
 			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 			<ul class="right hide-on-med-and-down">
-				<li><a href="#">About</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">LinkedIn</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 			<ul class="sidenav" id="mobile-demo">
-				<li><a href="#">About</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">LinkedIn</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
+
 
 	<!-- Hero Section -->
 	<div class="parallax-container valign-wrapper">
@@ -62,31 +63,49 @@
 			</div>
 			<div class="row">
 				<div class="col l4 ">
-					<a class="waves-effect btn-large hoverable  light-blue darken-2">Contact</a>
+					<a id="email-button" class="waves-effect btn-large hoverable  light-blue darken-2" href="mailto:erickjgarcia@gmail.com">Contact
+						via email</a>
 				</div>
 			</div>
 		</div>
 		<div class="parallax"><img src="./assets/images/flicker crop 2 narrower.jpg"></div>
 	</div>
 
-	
+
 	<!-- About Section -->
 
-	<div class="container">
-			<div class="row">
+	<div id="about" class="container">
+		<div class="row">
+			<div class="col l4">
 				<h2 class="section-header">About Me</h2>
 			</div>
-			<div class="row">
-				<p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae officiis quae nostrum vitae
-					cupiditate error non praesentium, nihil culpa laboriosam blanditiis voluptates facilis, quis neque delectus ea
-					dignissimos accusantium qui.</p>
-			</div>
 		</div>
 
-	<!-- Services -->
+		<div class="row">
+			<p class="flow-text">I am a trilingual professional with experience in coding, research, translation, analysis and
+				financial operations.</p>
+
+			<p class="flow-text">I graduated from Brigham Young University where I majored in Political Science and minored in
+				Chinese. I speak fluent Spanish and professional-level Mandarin Chinese. </p>
+
+			<p class="flow-text">My career since graduating has been in the financial services industry, and I am now
+				transitioning to coding. I am currently attending The Coding Boot-camp Full Stack Flex Program at the University of
+				Utah.</p>
+
+			<p class="flow-text">¡Bienvenidos a mi sitio web! 欢迎来到我的网站！</p>
+
+		</div>
+	</div>
+
+	<!-- divider -->
 	<div class="container">
+		<div class="divider"></div>
+	</div>
+
+	<!-- Skills -->
+	<div id="skills" class="container">
 		<div class="row">
-			<h2 class="section-header">Services</h2>
+			<h2 class="section-header">Skills</h2>
 		</div>
 		<div class="row">
 			<div class="col l6 m 12 s12">
@@ -94,15 +113,13 @@
 					<div class="card-content white-text">
 						<h3 class="center-align"><i class="fa fa-desktop fa-3x" aria-hidden="true"></i> </h3>
 						<div class="divider"></div>
-						<span class="card-title">Custom Web Design</span>
-						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione in ipsam quia neque incidunt dolor similique
-							molestias, reprehenderit iste. Odio explicabo quia voluptate hic obcaecati inventore voluptatem ut aspernatur
-							impedit.
+						<span class="card-title">Web Develpment</span>
+						<p>HTML, CSS, and Javascript are my jam. I also love using libraries like JQuery, Bootstrap, Materializecss (what
+							this website is built on!) and others. I love JavaScript in all its forms, inlcuding the amazing Node.JS!
+							Working with and building databases is my next fun venture. SQL, watch out!
 						</p>
 					</div>
-					<div class="card-action">
-						<a href="#">Find out more</a>
-					</div>
+
 				</div>
 			</div>
 
@@ -111,15 +128,13 @@
 					<div class="card-content white-text">
 						<h3 class="center-align"><i class="fa fa-search  fa-3x" aria-hidden="true"></i> </h3>
 						<div class="divider"></div>
-						<span class="card-title">SEO</span>
-						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione in ipsam quia neque incidunt dolor similique
-							molestias, reprehenderit iste. Odio explicabo quia voluptate hic obcaecati inventore voluptatem ut aspernatur
-							impedit.
+						<span class="card-title">Research and Analysis</span>
+						<p>My background in Political Science has given me the tools to look for relationships in data. While at BYU, I
+							worked as part of a research team that looked into election data from around the world. We completed our dataset
+							and explored the different variables between election systems and their outcomes. It was facinating!
 						</p>
 					</div>
-					<div class="card-action">
-						<a href="#">Find out more</a>
-					</div>
+
 				</div>
 			</div>
 
@@ -128,34 +143,32 @@
 			<div class="col l6 m 12 s12">
 				<div class="card medium  light-blue z-depth-2">
 					<div class="card-content white-text">
-						<h3 class="center-align"><i class="fa fa-desktop fa-3x" aria-hidden="true"></i> </h3>
+						<h3 class="center-align"><i class="fa fa-file fa-3x" aria-hidden="true"></i> </h3>
 						<div class="divider"></div>
-						<span class="card-title">Custom Web Design</span>
-						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione in ipsam quia neque incidunt dolor similique
-							molestias, reprehenderit iste. Odio explicabo quia voluptate hic obcaecati inventore voluptatem ut aspernatur
-							impedit.
+						<span class="card-title">Finance Expertise</span>
+						<p>I am a personal finance guru. I love delving into my personal portfolio and love giving other's advice on how
+							to invest. I love recommending a passive strategy that delivers great returns in the long term. I have worked in
+							everything from asset management to security-based lending. Let me know if you want to discuss how your
+							investments are allocated!
 						</p>
 					</div>
-					<div class="card-action">
-						<a href="#">Find out more</a>
-					</div>
+
 				</div>
 			</div>
 
 			<div class="col l6 m 12 s12">
 				<div class="card medium  light-blue darken-2 z-depth-2">
 					<div class="card-content white-text">
-						<h3 class="center-align"><i class="fa fa-search  fa-3x" aria-hidden="true"></i> </h3>
+						<h3 class="center-align"><i class="fa fa-comments  fa-3x" aria-hidden="true"></i> </h3>
 						<div class="divider"></div>
-						<span class="card-title">SEO</span>
-						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione in ipsam quia neque incidunt dolor similique
-							molestias, reprehenderit iste. Odio explicabo quia voluptate hic obcaecati inventore voluptatem ut aspernatur
-							impedit.
+						<span class="card-title">Translation and Interpretation</span>
+						<p>I grew up speaking Spanish, and I learned Mandarin Chinese as a volunteer in the Chinese community of Dallas,
+							TX, as an English teacher in Chengdu, Sichuan, and as a student Shanghai. I am a certified high level spanish
+							speaker (Reading and Listening State Department test scores: 2+), and I also a certified "superior" Mandarin
+							speaker.
 						</p>
 					</div>
-					<div class="card-action">
-						<a href="#">Find out more</a>
-					</div>
+
 				</div>
 			</div>
 		</div>
@@ -167,7 +180,8 @@
 			<div class="row center">
 				<div class="col l10 offset-l1 valign">
 					<h2 class="center-align white-text cta">Interested in working together?</h2>
-					<a href="#" class="waves-effect center btn-large hoverable light-blue darken-2">Get in touch</a>
+					<a href="mailto:erickjgarcia@gmail.com" class="waves-effect center btn-large hoverable light-blue darken-2">Get in
+						touch</a>
 				</div>
 			</div>
 		</div>
@@ -175,24 +189,24 @@
 	</div>
 
 
-	<!-- Work Section -->
-	<div class="container">
-		<h2 class="section-header">Selected Works</h2>
+	<!-- Portfolio Section -->
+	<div id="portfolio" class="container">
+		<h2 class="section-header">Selected Portfolio</h2>
 		<div class="row">
 
 			<div class="col l4 m8 offset-m2 s12 ">
 				<div class="card">
 					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="./assets/images/Hangman.jpg">
+						<img class="activator" src="./assets/images/Film-Food.png">
 					</div>
 					<div class="card-content">
-						<span class="card-title activator grey-text text-darken-4">Hangman Game<i class="material-icons right">more_vert</i></span>
-						<p><a href="#">View Live Site</a></p>
+						<span class="card-title activator grey-text text-darken-4">Film and Food<i class="material-icons right">more_vert</i></span>
+						<p><a href="https://guomubai.github.io/first-group-project/" target="_blank">View Live Site</a></p>
 					</div>
 					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4">Hangman Game<i class="material-icons right">close</i></span>
-						<p>This was a game that I worked on. This site uses HTML, CSS and Javascript. It was designed as part of a class
-							assignment. </p>
+						<span class="card-title grey-text text-darken-4">Film and Food<i class="material-icons right">close</i></span>
+						<p>This was our first group project. I mainly worked on the javascript. I set out the movie search API, made the
+							link to Firebase, and connected it to a recipe search API. </p>
 					</div>
 				</div>
 			</div>
@@ -200,16 +214,16 @@
 			<div class="col l4 m8 offset-m2 s12 ">
 				<div class="card">
 					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="./assets/images/Hangman.jpg">
+						<img class="activator" src="./assets/images/Crystal-Game.png">
 					</div>
 					<div class="card-content">
-						<span class="card-title activator grey-text text-darken-4">Hangman Game<i class="material-icons right">more_vert</i></span>
-						<p><a href="#">View Live Site</a></p>
+						<span class="card-title activator grey-text text-darken-4">Crystal Game<i class="material-icons right">more_vert</i></span>
+						<p><a href="https://guomubai.github.io/unit-4-game/" target="_blank">View Live Site</a></p>
 					</div>
 					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4">Hangman Game<i class="material-icons right">close</i></span>
-						<p>This was a game that I worked on. This site uses HTML, CSS and Javascript. It was designed as part of a class
-							assignment. </p>
+						<span class="card-title grey-text text-darken-4">Crystal Game<i class="material-icons right">close</i></span>
+						<p>This is an "add up the crystals" game made with Bootstrap. The javascript was a lot of fun to put together.
+							Look out for future updates that includes clips from the film "Napolean Dynamite". </p>
 					</div>
 				</div>
 			</div>
@@ -217,169 +231,111 @@
 			<div class="col l4 m8 offset-m2 s12 ">
 				<div class="card">
 					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="./assets/images/Hangman.jpg">
+						<img class="activator" src="./assets/images/Giphy.png">
 					</div>
 					<div class="card-content">
-						<span class="card-title activator grey-text text-darken-4">Hangman Game<i class="material-icons right">more_vert</i></span>
-						<p><a href="#">View Live Site</a></p>
+						<span class="card-title activator grey-text text-darken-4">Giphy Search<i class="material-icons right">more_vert</i></span>
+						<p><a href="https://guomubai.github.io/GiphyButtons/" target="_blank">View Live Site</a></p>
 					</div>
 					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4">Hangman Game<i class="material-icons right">close</i></span>
-						<p>This was a game that I worked on. This site uses HTML, CSS and Javascript. It was designed as part of a class
-							assignment. </p>
+						<span class="card-title grey-text text-darken-4">Giphy Search<i class="material-icons right">close</i></span>
+						<p>This was a simple search tool that I pit together using the Giphy Search API. Adding the additional buttons
+							was constructed with Javascript.</p>
 					</div>
 				</div>
 			</div>
-
-			<div class="col l4 m8 offset-m2 s12 ">
-				<div class="card">
-					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="./assets/images/Hangman.jpg">
-					</div>
-					<div class="card-content">
-						<span class="card-title activator grey-text text-darken-4">Hangman Game<i class="material-icons right">more_vert</i></span>
-						<p><a href="#">View Live Site</a></p>
-					</div>
-					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4">Hangman Game<i class="material-icons right">close</i></span>
-						<p>This was a game that I worked on. This site uses HTML, CSS and Javascript. It was designed as part of a class
-							assignment. </p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col l4 m8 offset-m2 s12 ">
-				<div class="card">
-					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="./assets/images/Hangman.jpg">
-					</div>
-					<div class="card-content">
-						<span class="card-title activator grey-text text-darken-4">Hangman Game<i class="material-icons right">more_vert</i></span>
-						<p><a href="#">View Live Site</a></p>
-					</div>
-					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4">Hangman Game<i class="material-icons right">close</i></span>
-						<p>This was a game that I worked on. This site uses HTML, CSS and Javascript. It was designed as part of a class
-							assignment. </p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col l4 m8 offset-m2 s12 ">
-				<div class="card">
-					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="./assets/images/Hangman.jpg">
-					</div>
-					<div class="card-content">
-						<span class="card-title activator grey-text text-darken-4">Hangman Game<i class="material-icons right">more_vert</i></span>
-						<p><a href="#">View Live Site</a></p>
-					</div>
-					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4">Hangman Game<i class="material-icons right">close</i></span>
-						<p>This was a game that I worked on. This site uses HTML, CSS and Javascript. It was designed as part of a class
-							assignment. </p>
-					</div>
-				</div>
-			</div>
-
 
 
 		</div>
 	</div>
 
-	
+
 
 	<!-- divider -->
 	<div class="container">
 		<div class="divider"></div>
 	</div>
 
-	
+
 	<!-- Contact section -->
-	<div class="container">
-			<div class="row">
-				<h2 class = "section-header">Contact</h2>
-			</div>
+	<div id="contact" class="container">
+		<div class="row">
+			<h2 class="section-header">Contact</h2>
 		</div>
-	
-		<div class="container light-blue lighten-5 contact-form">
-			<div class="row">
-				<div class="col l8 offset-l2 m12 s12">
-					<div class="row">
-						<form class="col s12">
-							<div class="row">
-								<div class="input-field col s6">
-									<input id="first_name" type="text" class="validate">
-									<label for="first_name">First Name</label>
-								</div>
-								<div class="input-field col s6">
-									<input id="last_name" type="text" class="validate">
-									<label for="last_name">Last Name</label>
-								</div>
-							</div>
-	
-	
-							<div class="row">
-								<div class="input-field col s12">
-									<input id="email" type="email" class="validate">
-									<label for="email">Email</label>
-								</div>
-							</div>
-							<div class="row">
-								<div class="input-field col s12">
-									<textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
-									<label for="textarea2">Message</label>
-								</div>
-							</div>
-								<div class="row">
-									  <button id = "submit-button" class="btn waves-effect waves-light" type="submit" name="action">Submit
-												<i class="material-icons right">send</i>
-											</button>
-								</div>
-						</form>
-					</div>
-				</div>
+	</div>
 
-
-				
-			</div>
-		</div>
-
-
-		<!-- Footer Section -->
-		<footer class="page-footer blue-grey darken-3">
-			<div class="container">
+	<div class="container light-blue lighten-5 contact-form">
+		<div class="row">
+			<div class="col l8 offset-l2 m12 s12">
 				<div class="row">
-					<div class="col l6 s12">
-						<h5 class = "white-text">Erick Garcia</h5>
-						<ul>
-							<li class = "greu-text text-lighten-4">Additional Services</li>
-							<li class = "greu-text text-lighten-4">Additional Services</li>
-							<li class = "greu-text text-lighten-4">Additional Services</li>
-							<li class = "greu-text text-lighten-4">Additional Services</li>
-							<li class = "greu-text text-lighten-4">Additional Services</li>
-						</ul>
-					</div>
+					<form class="col s12">
+						<div class="row">
+							<div class="input-field col s6">
+								<input id="first_name" type="text" class="validate">
+								<label for="first_name">First Name</label>
+							</div>
+							<div class="input-field col s6">
+								<input id="last_name" type="text" class="validate">
+								<label for="last_name">Last Name</label>
+							</div>
+						</div>
+
+
+						<div class="row">
+							<div class="input-field col s12">
+								<input id="email" type="email" class="validate">
+								<label for="email">Email</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+								<label for="textarea2">Message</label>
+							</div>
+						</div>
+						<div class="row">
+							<button id="submit-button" class="btn waves-effect waves-light" type="submit" name="action">Submit
+								<i class="material-icons right">send</i>
+							</button>
+						</div>
+					</form>
 				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+
+
+	<!-- Footer Section -->
+	<footer class="page-footer blue-grey darken-3">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Thanks for visiting!</h5>
+
+				</div>
+
 				<div class="col l4 offset-l2 s12">
-					<h5 class = "white-text">Links</h5>
-						<ul>
-								<li> <a href="#" class = "greu-text text-lighten-3">Services</a> </li>
-								<li> <a href="#" class = "greu-text text-lighten-3">About</a> </li>
-								<li> <a href="#" class = "greu-text text-lighten-3">Works</a> </li>
-								<li> <a href="#" class = "greu-text text-lighten-3">Contact</a> </li>
-						</ul>
-				</div>
-
-			</div>
-
-			<div class="footer-copyright blue-grey darken-4">
-				<div class="container">
-					<p>&copy;2018 Copyright Erick Garcia, All Rights Reserved</p>
-					<a href="#" class="grey-text text-lighten-4 right">Privacy Policy</a>
+					<h5 class="white-text">Navigation Links</h5>
+					<ul>
+						<li><a href="#about">About</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
 				</div>
 			</div>
-		</footer>
+		</div>
+
+		<div class="footer-copyright blue-grey darken-4">
+			<div class="container">
+				<p>&copy;2018 Copyright Erick Garcia, All Rights Reserved</p>
+				<p>This site was made with lots of ❤ and the help of from <a href="https://materializecss.com/" target="_blank">Materialize</a></p>
+			</div>
+		</div>
+	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
 	 crossorigin="anonymous"></script>

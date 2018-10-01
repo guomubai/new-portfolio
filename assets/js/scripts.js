@@ -3,5 +3,6 @@ $(document).ready(function(){
 	$(".sidenav").sidenav();
 	// For the Parallax scrolling
 	$('.parallax').parallax();
+	
 });
 
